@@ -1,4 +1,4 @@
-/* Reset and base styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@
   
   .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 buttons per row */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
     width: 100%;
     max-width: 500px;
@@ -59,10 +59,9 @@
     transform: scale(0.98);
   }
   
-  /* Responsive: Stack on very small screens */
   @media (max-width: 400px) {
     .container {
-      grid-template-columns: 1fr; /* Stack buttons on small screens */
+      grid-template-columns: 1fr; 
     }
   }
   
